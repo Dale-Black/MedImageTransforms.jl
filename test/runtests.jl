@@ -1,6 +1,4 @@
-using MedicalTransforms
-using Test
+include("./imports.jl")
 
-@testset "MedicalTransforms.jl" begin
-    # Write your tests here.
-end
+include("crop.jl")
+include("utils.jl")
